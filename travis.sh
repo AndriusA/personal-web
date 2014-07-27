@@ -39,8 +39,8 @@ if [ "$MIRAGE_BACKEND" = "xen" \
     # Do the actual work for deployment.
     # Clone the deployment repo. Notice the user,
     # which is the same as in the ~/.ssh/config file.
-    git clone git@some_user:amirmc/www-test-deploy
-    cd www-test-deploy
+    git clone git@github.com:AndriusA/personal-web.git 
+    cd personal-web
 
     # Make a folder named for the commit. 
     # If we're rebuiling a VM from a previous
