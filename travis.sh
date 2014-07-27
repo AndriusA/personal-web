@@ -10,4 +10,5 @@ opam install mirage crunch
 eval `opam config env`
 
 mirage configure --$MIRAGE_BACKEND
+make depend
 mirage build
