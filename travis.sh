@@ -6,7 +6,7 @@ sudo apt-get install -qq ocaml ocaml-native-compilers camlp4-extra opam
 
 export OPAMYES=1
 opam init
-opam install mirage
+opam install mirage ocaml-crunch
 eval `opam config env`
 
 mirage configure --$MIRAGE_BACKEND
